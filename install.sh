@@ -9,9 +9,9 @@
 mkdir -p /opt/oases
 # do the work
 yum -y install zlib zlib-devel
-git clone git@github.com:dzerbino/oases /opt/oases
+git clone git://github.com/dzerbino/oases.git /opt/oases
 cd /opt/oases
-git clone git@github.com:dzerbino/velvet
+git clone git://github.com/dzerbino/velvet.git
 cd velvet
 # compile velvet
 make 'MAXKMERLENGTH=99'
