@@ -14,7 +14,7 @@ cd /opt/oases
 git clone git://github.com/dzerbino/velvet.git
 cd velvet
 # compile velvet
-make 'MAXKMERLENGTH=99'
+make 'MAXKMERLENGTH=99' 'CATEGORIES=5'
 # go back to oases
 cd ..
 # compile oases
